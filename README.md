@@ -2,7 +2,7 @@
 
 ### Install 
 ```
-$ pip install jieba
+$ pip3 install jieba
 ```
 
 ### create_dict.py
@@ -38,9 +38,11 @@ Iter 跑得次數
 
 Function avg_feature_vector :
 
+
   把送入的詞利用空格斷開
   一個一個去找各個斷詞分別對應到 model 中得哪個 index 並取出其代表的 vector
   他們全部加起來算出來的平均就是該句子的 vector
+
 
 Function Compute :
 
